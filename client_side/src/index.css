@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg {
+  background-color:#111111;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(52, 46, 82, 0.548) 0, transparent 50%), 
+    radial-gradient(at 60% 0%, rgba(90, 42, 70, 0.831) 0, transparent 50%), 
+    radial-gradient(at 100% 40%, rgba(60, 30, 81, 0.636) 0, transparent 50%);
+}
+
+.gradient-bg-transaction-history {
+  background-color: #111111;
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  overflow-wrap: break-word;
+}
+
+.card {
+  background-color:#af99ff;
+  background-image:
+    radial-gradient(at 80% 64%, hsla(262,66%,61%,1) 0px, transparent 50%),
+    radial-gradient(at 90% 19%, hsla(206,87%,67%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 98%, hsla(196,88%,69%,1) 0px, transparent 50%),
+    radial-gradient(at 5% 87%, hsla(289,94%,64%,1) 0px, transparent 50%),
+    radial-gradient(at 92% 79%, hsla(179,71%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 26% 89%, hsla(118,67%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 42% 68%, hsla(192,98%,76%,1) 0px, transparent 50%);
+}
+
+.gradient-bg-footer {
+  background-color: #111111;
+  background-image: 
+    radial-gradient(at 0% 100%, rgb(18, 17, 20) 0, transparent 53%), 
+    radial-gradient(at 50% 100%, rgba(132, 49, 78, 0.526) 0, transparent 50%);
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
